@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dienstleistungen</title>
+    <link href="https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/icon.png">
+    <style>
+        body {
+            align-items: center;
+            font-family: "National Park", sans-serif;
+            justify-content: center; 
+            margin-top: 30px;
+            background-color: #e6e6e6;
+        }
+
+        .overlay, .overlay2 {
+            max-width: 500px;
+            width: calc(100% - 40px);
+            height: auto;
+            margin: 0 auto;
+            border: 1px solid black;
+            border-radius: 20px;
+            padding: 20px;
+            background-color: #fff;
+            word-break: break-word;
+        }
+
+        button {
+            background-color: #cfcfcf;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .footing {
+            text-align: center;
+        }
+
+        .nodecoration {
+            text-decoration: none;
+        }
+
+        .nodecoration:hover {
+            text-decoration: underline;
+        }
+
+        .basic-color {
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay2">
+        <div>
+            <p><b>Wartungsarbeiten!</b> Es finden vom <b>12. bis zum 14. April </b>Wartungsarbeiten statt!</p> 
+        </div>
+    </div>
+    <br>
+    <div class="overlay">
+        
+        <div>
+            <h1>Meine Dienstleistungen</h1>
+            <p>Hier findest du meine zu buchende Dienstleistungen im Überblick!</p>
+        </div>
+        
+        <hr>
+        <div class="dienstleistungen">
+            <h1>Spülmaschine Ausräumen</h1>
+            <p>2,50€ pro Spülmaschine / Bei mehr als 3 Fächern (Industrie-Maschine) 1€ pro Fach | Nach 18 Uhr 3,00€ pro Spülmschine / Bei mehr als 3 Fächern (Industrie-Maschine) 1,50€ pro Fach</p>
+            <p>Buchbar von 10:00-21:00 Uhr</p>
+            <button type="button"><a class="nodecoration basic-color" href="purchase/index.html?purchase_type=spülmaschine">Buchen</a></button>
+            <br><br>
+            <hr>
+            <h1>Unkraut jäten</h1>
+            <p>5,00€ pro 30 min / 9€ pro Stunde| Bei mehr als einer Stunde 12€ pro Stunde</p>
+            <p>Buchbar von 10:00-16:00 Uhr</p>
+            <button type="button"><a class="nodecoration basic-color" href="purchase/index.html?purchase_type=unkraut">Buchen</a></button>
+            <br><br>
+            <hr>
+            <h1>Staubsaugen</h1>
+            <p>2,00€ pro 30 min /3,50€ pro Stunde| Bei mehr als einer 1 Stunden 4,50€ pro Stunde</p>
+            <p>Buchbar von 10:00-16:00 Uhr</p>
+            <button type="button"><a class="nodecoration basic-color" href="purchase/index.html?purchase_type=staubsaugen">Buchen</a></button>
+            <br><br>
+            <hr>
+            <h1>Einfahrt Reinigen</h1>
+            <p>3,50€ pro 15 min /5,50€ pro 30 min | Bei mehr als einer 30 min 5,00€ pro Stunde</p>
+            <p>Buchbar von 10:00-16:00 Uhr</p>
+            <button type="button"><a class="nodecoration basic-color" href="purchase/index.html?purchase_type=einfahrt">Buchen</a></button>
+            <br><br>
+        </div>
+        <hr>
+        <br>
+        <br>
+        <footer class="footing">
+            <a class="nodecoration basic-color" href="legal/terms-of-use.html">Terms Of Use</a>
+            <a>•</a>
+            <a class="nodecoration basic-color" href="legal/privacy-policy.html">Privacy Policy</a>
+            <h3>© 2025 by Milan Düttra</h3>
+        </footer>
+    </div>
+</body>
+</html>
